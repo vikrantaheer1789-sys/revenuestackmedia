@@ -1,53 +1,37 @@
 # RevenueStack Media Website
 
-A responsive static website for a performance marketing agency.
+Original static website for `revenuestackmedia.com`.
 
-## Included pages
+## Design direction
 
-- Home
-- Services
-- About Us
-- Capabilities / Case Studies
-- Contact
-- Privacy Policy
-- Terms of Use
+This version uses a bold performance-agency structure with original RevenueStack Media branding, custom SVG logo assets, asymmetric typography, service cards, partner experience, a three-stage growth process and an insights section.
+
+## Files
+
+- `index.html`
+- `services.html`
+- `about.html`
+- `partners.html`
+- `insights.html`
+- `contact.html`
+- `privacy.html`
+- `terms.html`
+- `assets/css/styles.css`
+- `assets/js/main.js`
+- `assets/img/logo-mark.svg`
+- `assets/img/logo-horizontal.svg`
+
+## Cloudflare Pages settings
+
+- Production branch: `main`
+- Framework preset: `None`
+- Build command: `exit 0`
+- Build output directory: `.`
+- Root directory: blank
 
 ## Before publishing
 
-Search and replace these placeholders:
-
-- `RevenueStack Media`
-- `hello@revenuestackmedia.com`
-- Contact location and business hours
-- Governing law in `terms.html`
-- Any partner/network names you are not authorized to display
-- Placeholder case-study content
-
-## Contact form
-
-The starter form opens the visitor's email application using `mailto:`.
-
-For a production form, connect it to one of:
-
-- Formspree
-- Web3Forms
-- HubSpot
-- Your own server/API
-
-## Deployment
-
-### Vercel
-1. Create a new project.
-2. Upload this folder or connect a GitHub repository.
-3. No build command is required.
-4. Set the output/root directory to the project root.
-
-### Netlify
-Drag and drop the folder into Netlify's deployment area.
-
-### cPanel
-Upload all files to `public_html`.
-
-## Legal note
-
-The privacy policy and terms are starter templates only. Have a qualified lawyer review them for your entity, jurisdiction and actual data practices.
+- Confirm that `hello@revenuestackmedia.com` exists.
+- Review partner references and use third-party logos only with authorization.
+- Replace placeholder insight content with original articles over time.
+- Have legal pages reviewed for the registered entity and jurisdiction.

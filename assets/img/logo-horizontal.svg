@@ -1,13 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
-<title>RevenueStack Media mark</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 120" role="img" aria-labelledby="title">
+<title>RevenueStack Media logo</title>
 <defs>
   <linearGradient id="g1" x1="16" y1="100" x2="98" y2="16" gradientUnits="userSpaceOnUse">
     <stop stop-color="#176BFF"/>
     <stop offset="1" stop-color="#23C483"/>
   </linearGradient>
 </defs>
-<rect width="120" height="120" rx="28" fill="#0D1B2A"/>
+<rect x="0" y="0" width="120" height="120" rx="28" fill="#0D1B2A"/>
 <path d="M27 88V29h31c21 0 34 10 34 27 0 12-7 21-19 25l18 7-11 15-29-17H45v22H27Zm18-39v21h14c10 0 16-4 16-11 0-7-6-10-16-10H45Z" fill="#F7F4EC"/>
 <path d="M29 93h14V78H29v15Zm20 0h14V70H49v23Zm20 0h14V59H69v34Z" fill="url(#g1)"/>
 <path d="M61 61 95 27m0 0H78m17 0v17" fill="none" stroke="#FF5A36" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="145" y="61" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="45" fill="#0D1B2A">RevenueStack</text>
+<text x="148" y="91" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="19" letter-spacing="8" fill="#176BFF">MEDIA</text>
 </svg>

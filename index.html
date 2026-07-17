@@ -12,7 +12,7 @@
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
+<body data-page="index">
 
 <header class="site-header">
   <div class="container nav">
@@ -29,7 +29,7 @@
 <main>
 <section class="hero">
   <div class="container hero-grid">
-    <div>
+    <div class="hero-copy" data-parallax="0.035">
       <span class="kicker">Performance marketing agency</span>
       <h1>Media buying that <span class="highlight">compounds</span> revenue.</h1>
       <p class="lead">RevenueStack Media plans, buys and optimizes paid traffic for lead generation, search arbitrage and content arbitrage across Meta and TikTok.</p>
@@ -38,38 +38,51 @@
         <a class="btn btn-outline" href="services.html">See our capabilities</a>
       </div>
     </div>
-    <div class="hero-art">
-      <div class="dash-top">
-        <strong>Campaign control room</strong>
-        <span class="live-dot">Live optimization</span>
+    <div class="hero-art" data-parallax="-0.025" aria-label="Performance marketing dashboard illustration">
+      <div class="dash-top parallax-layer" data-depth="0.18">
+        <strong>Performance Engine</strong>
+        <span class="live-dot">Always-on optimization</span>
       </div>
-      <div class="metric-big">+37%</div>
-      <div class="metric-label">Example performance visualization — not a client claim</div>
-      <div class="chart">
+      <div class="metric-big parallax-layer" data-depth="0.11">SCALE</div>
+      <div class="metric-label parallax-layer" data-depth="0.08">Creative, tracking and media buying working as one.</div>
+      <div class="chart parallax-layer" data-depth="0.06">
         <div class="bar" style="height:35%"></div><div class="bar" style="height:55%"></div><div class="bar" style="height:43%"></div>
         <div class="bar" style="height:72%"></div><div class="bar" style="height:62%"></div><div class="bar" style="height:89%"></div>
         <div class="bar" style="height:78%"></div><div class="bar" style="height:100%"></div>
       </div>
-      <div class="floating-card fc-1"><strong>Meta + TikTok</strong><span>Paid acquisition channels</span></div>
-      <div class="floating-card fc-2"><strong>Track → Test → Scale</strong><span>Our operating rhythm</span></div>
+      <div class="floating-card fc-1 parallax-layer" data-depth="0.22"><strong>Meta + TikTok</strong><span>Cross-platform acquisition</span></div>
+      <div class="floating-card fc-2 parallax-layer" data-depth="0.28"><strong>Research → Launch → Scale</strong><span>Built for measurable growth</span></div>
     </div>
   </div>
 </section>
 
-<section class="trust">
-  <div class="container trust-grid">
-    <div class="trust-title">Experience across</div>
-    <div class="partner-pill">Healthy Labs</div>
-    <div class="partner-pill">Smart Finance</div>
-    <div class="partner-pill">Media.net</div>
-    <div class="partner-pill">Visymo</div>
+<section class="trust partner-runway-section" aria-label="Networks and platforms experience">
+  <div class="container partner-runway-heading">
+    <div class="trust-title">Networks &amp; platforms we’ve worked with</div>
+    <p>Names represent relevant experience and do not necessarily imply endorsement.</p>
+  </div>
+  <div class="partner-runway" data-parallax="0.018">
+    <div class="partner-runway-track">
+      <div class="partner-group" aria-hidden="false">
+        <span class="partner-wordmark healthy">Healthy Labs</span>
+        <span class="partner-wordmark finance">Smart Finance</span>
+        <span class="partner-wordmark medianet">Media.net</span>
+        <span class="partner-wordmark visymo">Visymo</span>
+      </div>
+      <div class="partner-group" aria-hidden="true">
+        <span class="partner-wordmark healthy">Healthy Labs</span>
+        <span class="partner-wordmark finance">Smart Finance</span>
+        <span class="partner-wordmark medianet">Media.net</span>
+        <span class="partner-wordmark visymo">Visymo</span>
+      </div>
+    </div>
   </div>
 </section>
 
 <section class="section">
   <div class="container split">
-    <div class="impact-panel">
-      <div class="impact-orbit"></div>
+    <div class="impact-panel" data-parallax="0.025">
+      <div class="impact-orbit parallax-layer" data-depth="0.16"></div>
       <span class="orbit-label ol-1">Creative testing</span>
       <span class="orbit-label ol-2">Traffic quality</span>
       <span class="orbit-label ol-3">Conversion tracking</span>
@@ -144,10 +157,11 @@
     <div class="section-head">
       <div><span class="kicker">Our growth process</span><h2>Three stages. One measurable system.</h2></div>
     </div>
-    <div class="process-grid">
+    <div class="process-shell"><div class="process-line"><span></span></div><div class="process-grid">
       <div class="process-card"><h3>Diagnose & plan</h3><p>Review offer economics, audience, policies, conversion event and tracking requirements.</p></div>
       <div class="process-card"><h3>Test & learn</h3><p>Launch distinct creative and placement tests with clear stopping and scaling rules.</p></div>
       <div class="process-card"><h3>Verify & scale</h3><p>Increase budgets only when conversion quality, reporting and unit economics remain stable.</p></div>
+    </div>
     </div>
   </div>
 </section>

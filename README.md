@@ -35,3 +35,22 @@ This version uses a bold performance-agency structure with original RevenueStack
 - Review partner references and use third-party logos only with authorization.
 - Replace placeholder insight content with original articles over time.
 - Have legal pages reviewed for the registered entity and jurisdiction.
+
+
+## Premium parallax update
+
+This package adds:
+
+- Subtle scroll parallax without scroll-jacking
+- Pointer-depth hero dashboard on desktop
+- Scroll reveal animations
+- Animated partner runway
+- Chart entrance animation
+- Scroll progress indicator
+- Process progress line
+- Card glow and hover interactions
+- Compact sticky header
+- Reduced-motion accessibility support
+- Automatic mobile parallax disablement
+
+No external animation library is required.

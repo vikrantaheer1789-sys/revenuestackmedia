@@ -59,3 +59,38 @@ No external animation library is required.
 ## Copy refinement update
 
 Homepage copy and typography were refined across the hero dashboard, operating model, capability cards and network experience sections.
+
+
+## Media.net logo
+
+The supplied Media.net transparent PNG is included at `assets/img/partners/media-net.png` and used in the homepage partner runway and Media.net experience cards.
+
+
+## Visymo logo
+
+The supplied Visymo logo has been background-cleaned and included at
+`assets/img/partners/visymo.png`. It is used in the homepage partner runway,
+homepage experience card, and Partners page.
+
+
+## Hero card update
+
+The homepage hero card now uses Meta and TikTok logo assets instead of text,
+and the card size/placement has been adjusted so the word "SCALE" remains visible.
+Assets added:
+- `assets/img/platforms/meta.svg`
+- `assets/img/platforms/tiktok.svg`
+
+
+## Additional partner logos
+
+Added the supplied partner logos:
+- `assets/img/partners/healthy-labs.png`
+- `assets/img/partners/smart-financial.png`
+
+These are used in the homepage partner runway, homepage experience cards, and Partners page.
+
+
+## Final polish update
+
+This package includes all supplied partner logos (Healthy Labs, Smart Financial, Media.net, and Visymo), a logo-first homepage partner section, Meta and TikTok hero logos, and a polished logo showcase on the Partners page.

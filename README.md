@@ -54,3 +54,8 @@ This package adds:
 - Automatic mobile parallax disablement
 
 No external animation library is required.
+
+
+## Copy refinement update
+
+Homepage copy and typography were refined across the hero dashboard, operating model, capability cards and network experience sections.
